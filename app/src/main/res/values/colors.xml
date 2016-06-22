@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gold">#fdfb6e</color>  
+    <color name="azure">#6efde4</color> 
+    <color name="hui">#e1e1e1</color>
+    <color name="s_hui">#f3f3f3</color>
+ 
+    <color name="bg01">#cf734e</color> 
+    <color name="bg02">#eba08d</color>
+    <color name="bg03">#9dceca</color>
+    <color name="bg04">#cddece</color> 
+    <color name="bg05">#d37654</color> 
+</resources>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:fillViewport="true"
+        android:scrollbars="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Switch
+                android:id="@+id/sunday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:checked="true"
+                android:textOff="周日关"
+                android:textOn="周日开"
+                android:thumb="@drawable/switch_up" />
+
+
+
+            <Switch
+                android:id="@+id/tuesday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/monday"
+                android:checked="true"
+                android:textOff="周二关"
+                android:textOn="周二开"
+                android:thumb="@drawable/switch_up" />
+            
+
+
+            <Switch
+                android:id="@+id/wednesday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/tuesday"
+                android:checked="true"
+                android:textOff="周三关"
+                android:textOn="周三开"
+                android:thumb="@drawable/switch_up" />
+            
+
+
+            <Switch
+                android:id="@+id/thursday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/wednesday"
+                android:checked="true"
+                android:textOff="周四关"
+                android:textOn="周四开"
+                android:thumb="@drawable/switch_up" />
+            
+
+
+            <Switch
+                android:id="@+id/friday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/thursday"
+                android:checked="true"
+                android:textOff="周五关"
+                android:textOn="周五开"
+                android:thumb="@drawable/switch_up" />
+            
+
+
+            <Switch
+                android:id="@+id/saturday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/friday"
+                android:checked="true"
+                android:textOff="周六关"
+                android:textOn="周六开"
+                android:thumb="@drawable/switch_up" />
+
+            <Switch
+                android:id="@+id/monday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/sunday"
+                android:checked="true"
+                android:textOff="周一关"
+                android:textOn="周一开"
+                android:thumb="@drawable/switch_up" />
+
+            <Switch
+                android:id="@+id/spicy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/sunday"
+                android:checked="true"
+                android:textOff="Spicy On"
+                android:textOn="Spicy Off"
+                android:thumb="@drawable/switch_up" />
+            
+            <Switch
+                android:id="@+id/sweet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/monday"
+                android:layout_below="@+id/spicy"
+                android:checked="true"
+                android:textOff="Sweet On"
+                android:textOn="Sweet Off"
+                android:thumb="@drawable/switch_up" />
+            
+            <Switch
+                android:id="@+id/protein"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/tuesday"
+                android:layout_below="@+id/sweet"
+                android:checked="true"
+                android:textOff="High Protein"
+                android:textOn="Low Protein"
+                android:thumb="@drawable/switch_up" />
+            
+            <Switch
+                android:id="@+id/calorine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/wednesday"
+                android:layout_below="@+id/protein"
+                android:checked="true"
+                android:textOff="High Calorine"
+                android:textOn="Low Calorine"
+                android:thumb="@drawable/switch_up" />
+            
+            <Switch
+                android:id="@+id/fat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/thursday"
+                android:layout_below="@+id/calorine"
+                android:checked="true"
+                android:textOff="High Fat"
+                android:textOn="Low Fat"
+                android:thumb="@drawable/switch_up" />
+            
+            <Switch
+                android:id="@+id/muslim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/friday"
+                android:layout_below="@+id/fat"
+                android:checked="true"
+                android:textOff="Muslim On"
+                android:textOn="Muslim Off"
+                android:thumb="@drawable/switch_up" />
+            
+            <Switch
+                android:id="@+id/sour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/saturday"
+                android:layout_below="@+id/muslim"
+                android:checked="true"
+                android:textOff="Sour On"
+                android:textOn="Sour Off"
+                android:thumb="@drawable/switch_up" />
+
+        </RelativeLayout>
+		
+    </ScrollView>
+
+
+</RelativeLayout>
